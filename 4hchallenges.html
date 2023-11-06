@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .back{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .search-result {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .next{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right : 20px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .shadow {
+        padding: 10px 20px 10px 20px;
+        background-color: rgb(73, 196, 91);
+        border: none;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+        transition: padding 0.5s;
+        cursor: pointer;
+    }
+    
+    .shadow:hover{
+        background-color: rgb(88, 129, 94);
+        padding: 20px 30px 20px 30px;
+    }
+
+    .shadow-button:active {
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
+    .one, .two, .three {
+        background-color: rgb(73, 196, 91);
+        border: none;
+        padding: 10px 20px 10px 20px;
+        margin-right: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .one:hover, .two:hover, .three:hover {
+        padding-left: 30px;
+        padding-right: 30px;
+        transition : padding 0.5s;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+</style>
+<body>
+    <button class="back">Back</button>
+    <a class="search-result" href="https://google.com">1</a>
+    <a class="search-result" href="https://google.com">2</a>
+    <a class="search-result" href="https://google.com">3</a>
+    <a class="search-result" href="https://google.com">4</a>
+    <a class="search-result" href="https://google.com">5</a>
+    <button class="next">Next</button>
+    <p>
+        <button class="shadow">shadow</button>
+    </p>
+    <p>
+        <button class="one">One</button>
+        <button class="two">Two</button>
+        <button class="three">Three</button>
+    </p>
+</body>
+</html>
