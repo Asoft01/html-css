@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .simple-input{
+        font-size: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 8px;
+    }
+
+    .google-input{
+        font-size: 16px;
+        width: 500px;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .linkedin-button{
+        background-color:rgb(48, 140, 168); 
+        border: none;
+        border-radius: 20px;
+        /* text-align: center; */
+        color: white;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+    }
+
+    .twitter-image {
+        width: 30px;
+        border-radius: 15px;
+        vertical-align: top;
+    }
+
+    .twitter-text{
+        vertical-align: top;
+        padding-left: 20px;
+        border: none;
+    }
+
+    .twitter-button{
+        color: white;
+        background-color: rgb(98, 133, 208);
+        border-radius: 10px;
+        border: none; 
+        color: white;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <input type="text" placeholder="Search" class="simple-input">
+    <p>
+        <input type="text" placeholder="Search Google or type a URL" class="google-input">
+    </p>
+    
+    <span>Email</span>
+    <p>
+        <input type="text" class="linkedin-input">
+    </p>
+    <span>By clicking Agree & Join, you agree to the Privacy Policy</span>
+    <p><button class="linkedin-button">Agree and Join</button></p>
+    <p>
+        <img src="images/cat.jpg" alt="" class="twitter-image">
+        <input type="text" class="twitter-text" placeholder="What's happening?">
+        <button class="twitter-button">Tweet</button>
+    </p>
+</body>
+</html>
