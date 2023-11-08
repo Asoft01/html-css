@@ -26,10 +26,36 @@
         /* .search-bar{
 
         } */
+        /*
+        There are three types of html element which are block element, inline-block element and inline element 
+        p is an example of display block element in which regardless of how much space it need to take up, it takes up entire line they are forced to be on their own. N.B: Paragraph by default are display block
+        2. Inline Block element - takes up as much space as it needs to and doesnt take up entire line e.g img and input 
+        3. Inline element - basically appear inline of text such as <span> and <strong>
+        */
+
+        /* .video-author {
+            display: inline-block;
+        } */
+
+        .video-stats, .video-author{
+            /* display: inline-block; */
+        }
+        .thumbnail{
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
     <input class="search-bar" type="text" placeholder="Search">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+    <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    <p class="video-author">
+        Marques Brownlee
+    </p>
+    <p class="video-stats">
+        3.4M views & 6 months ago
+    </p>
 </body>
 </html>
