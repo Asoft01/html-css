@@ -20,12 +20,13 @@
             border-style: solid;
             border-color: red;
             */
-            /* width: 300px; */
+            width: 300px;
+            display: block;
         }
 
-        /* .search-bar{
-
-        } */
+        .search-bar{
+            display: block;
+        }
         /*
         There are three types of html element which are block element, inline-block element and inline element 
         p is an example of display block element in which regardless of how much space it need to take up, it takes up entire line they are forced to be on their own. N.B: Paragraph by default are display block
@@ -40,22 +41,41 @@
         .video-stats, .video-author{
             /* display: inline-block; */
         }
-        .thumbnail{
-            display: block;
+
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
         }
     </style>
 </head>
 <body>
     <input class="search-bar" type="text" placeholder="Search">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-    <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-        Marques Brownlee
-    </p>
-    <p class="video-stats">
-        3.4M views & 6 months ago
-    </p>
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+        <p class="video-stats">
+            3.4M views & 6 months ago
+        </p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+        <p class="video-title">
+            Try Not To Laugh Challenge #9 
+        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-stats">
+            19M views & 4 months ago
+        </p>
+    </div>
+
 </body>
 </html>
