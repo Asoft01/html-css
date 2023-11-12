@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-system {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .col1{
+        background-color: lightblue;
+    }
+    .col2{
+        background-color: lightpink;
+    }
+    .col3{
+        background-color: lightblue;
+    }
+    
+    .col4{
+        background-color: lightpink;
+    }
+</style>
+<body>
+    <div class="grid-system">
+        <div class="col1">col 1</div>
+        <div class="col2">col 2</div>
+        <div class="col3">col 3</div>
+        <div class="col4">col 4</div>
+        <div class="col1">col 5</div>
+        <div class="col2">col 6</div>
+        <div class="col3">col 7</div>
+        <div class="col4">col 8</div>
+    </div>
+</body>
+</html>
