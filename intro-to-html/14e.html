@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="14e.css">
+  </head>
+  <style>
+    body{
+        height: 2000px;
+    }
+    .header{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .profile-picture{
+        height: 100px;
+        border-radius: 50px;
+    }
+    
+  </style>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="profile-picture" src="images/cat.jpg">
+        <div class="name">Oliver Cat</div>
+      </div>
+      <div class="right-section">
+        <button class="add-friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
