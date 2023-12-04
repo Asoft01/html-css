@@ -54,6 +54,11 @@ Images by default overflows! They keep their dimension and original size. reason
     margin-bottom: 10px;
 }
 
+.video-title-link{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Works before the grid css flexbox*/
 
@@ -120,3 +125,4 @@ Images by default overflows! They keep their dimension and original size. reason
     bottom: 8px; 
     right: 5px; 
 }
+
